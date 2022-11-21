@@ -1,0 +1,32 @@
+.header,
+.hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
