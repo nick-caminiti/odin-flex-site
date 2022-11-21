@@ -1,3 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.hero,
+.gallery,
+.quote,
+.signup-box,
+.footer,
+.test {
+    padding: 5px 300px 5px;
+}
+
 .header,
 .hero {
     background-color: #1F2937;
@@ -7,7 +22,20 @@
 .header{
     display:flex;
     justify-content: space-between;
-    
+}
+
+.gallery-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    border: solid red 2 px;
+}
+
+.links {
+    display: flex;
+    gap: 3px;
 }
 
 .hero {
@@ -18,8 +46,8 @@
 .hero-left {
     display: flex;
     flex-direction: column;
-    
 }
+
 
 .signup-button {
     background-color: #3882F6;
@@ -28,5 +56,6 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
