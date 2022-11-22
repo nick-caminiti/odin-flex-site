@@ -24,18 +24,41 @@ body {
     justify-content: space-between;
 }
 
+.gallery-head {
+    text-align: center;
+}
+
 .gallery-photos {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.photo-desc {
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.header-pic {
+    width: 100px;
+}
+
+.hero-pic {
+    width: 500px;
 }
 
 .photo {
-    border: solid red 2 px;
+    width: 200px;
+    border: solid #3882F6 4px;
 }
 
 .links {
     display: flex;
-    gap: 3px;
+    gap: 10px;
 }
 
 .hero {
