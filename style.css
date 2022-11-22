@@ -8,7 +8,6 @@ body {
 .hero,
 .gallery,
 .quote,
-.signup-box,
 .footer,
 .test {
     padding-left: 300px;
@@ -16,9 +15,10 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
 }
 
 .header{
@@ -65,8 +65,15 @@ img {
 }
 
 .hero-text,
-links {
+links,
+.signup-info {
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-title {
+    font-size: 22px;
+    font-weight: bold;
     color: #E5E7EB;
 }
 
@@ -92,17 +99,6 @@ links {
     margin-right: 20px;
 }
 
-.signup-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-weight: 700;
-    width: 75px;
-    padding: 5px;
-    margin-top: 20px;
-    border-radius: 25px;
-    text-align: center;
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -123,6 +119,39 @@ a {
 
 .signup-box {
     display: flex;
+    background-color: #3882F6;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 75px;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    width: 100px;
+    padding: 5px;
+}
+
+.bottom-button {
+    border: solid #F9FAF8 2px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
 }
 
 
